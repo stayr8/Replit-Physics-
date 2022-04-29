@@ -1,6 +1,7 @@
 #pragma once 
 
 #include <math.h>
+#include "SDL.h"
 
 class Vector2D {
 public:

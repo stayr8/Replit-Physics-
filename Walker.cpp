@@ -1,6 +1,7 @@
 #include "Walker.h"
 #include "InputHandler.h"
 
+
 Walker::Walker() 
 {
   Dir = new Vector2D(0,0);
@@ -16,6 +17,6 @@ void Walker::update()
 
 void Walker::draw(SDL_Renderer* renderer)
 {
- filledCircleRGBA(renderer, Dir->getX(), Dir->getY(), 15, 255, 255,0,200); 
-m_vehicle->draw(renderer);
+	filledCircleRGBA(renderer, Dir->getX(), Dir->getY(), 15, 255, 255,0,200); 
+	m_vehicle->draw(renderer);
 }

@@ -36,11 +36,7 @@ void Vehicle::update()
 void Vehicle::draw(SDL_Renderer* renderer)
 {
   
- filledTrigonRGBA(renderer, 
-   rd1->getX() + pos->getX() , rd1->getY() + pos->getY() ,
-   rd2->getX() + pos->getX() , rd2->getY() + pos->getY() ,
-   rd3->getX() + pos->getX() , rd3->getY() + pos->getY() , 
-   255, 255, 255, 255);
+ //filledTrigonRGBA(renderer, rd1->getX() + pos->getX() , rd1->getY() + pos->getY() ,rd2->getX() + pos->getX() , rd2->getY() + pos->getY() ,rd3->getX() + pos->getX() , rd3->getY() + pos->getY() , 255, 255, 255, 255);
 
 }
 
