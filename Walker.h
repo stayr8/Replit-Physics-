@@ -3,6 +3,7 @@
 #include "SDL.h"
 #include "Vector2D.h"
 #include "Vehicle.h"
+#include "SDL2_gfxPrimitives.h"
 
 class Walker 
 {
